@@ -1,0 +1,41 @@
+body {
+    display: block;
+    flex-direction: column;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: red;
+    height: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+a{
+    margin-right: 50px;
+}
+
+#welcome-section {
+    margin-top: 100px;
+    position: absolute;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 10;
+}
+
+.first-container{
+    background-color: silver;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        display: flex;
+    }
+}
